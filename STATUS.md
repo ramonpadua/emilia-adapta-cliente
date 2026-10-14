@@ -1,6 +1,6 @@
 # STATUS — Projeto Mara Cristina Amaral Santos - ME
 
-> **Atualizado em:** 2026-10-06 · **Por:** ETHOS (Bia)
+> **Atualizado em:** 2026-10-14 · **Por:** ETHOS (Bia)
 
 ## Onde estamos
 
@@ -12,7 +12,7 @@
 
 ## Gate atual
 
-**F3-T010 (relatórios operacionais + importação de OPs) e F3-T011 (embrulho por papel + planejamento semanal) CONCLUÍDAS — teste humano aprovado pela Champion em 06/10 ("tudo testado e funcionando").** Evidências: QA Skip 0.0.165 PASS; migration 0058 (lote 5: 46 OPs novas + 11 atualizadas, 2.128 un — confere exato com o resumo da Champion) aplicada; agrupamento por situação (tela + impressão), coluna Situação nas impressões e seletor de período semanal validados no preview. Recibos: `05_entregas/F3-T010-recibo-relatorios-operacionais.md` e `05_entregas/F3-T011-recibo-embrulho-planejamento.md`. Próxima: F3-T007 (piloto híbrido com o time de produção, turno real + aceite).
+**F3-T010 (relatórios operacionais + importação de OPs) e F3-T011 (embrulho por papel + planejamento semanal) CONCLUÍDAS — teste humano aprovado pela Champion em 06/10 ("tudo testado e funcionando").** **Manutenção pós-aceite (09–10/10, a pedido da Mara/Gestão, testada e aprovada em produção prática):** auditoria completa das composições da semana 05/10–11/10 (migration 0062 — 151 pedidos reescritos do PDF; tabela de sabores confere 100%, 16.491 un), dedup de itens duplicados de re-sincronização (migration 0063 — 60 pedidos dos lotes 1–5), importação das observações dos PDFs (migration 0064 — 72 OPs, ex.: "EMBALAR SEPARADOS") e correção da ordenação dos relatórios (situação primeiro, nome/OP dentro da situação). Atualizações do dia 10/10 (migration 0065): 3 novos (42084/42106/42121), 4 alterados (42066 Reserva→Entrega, 35173 residência, 42008/42009 anexos+obs) e OP 42072 movida para degustação 09/10 — dia 10/10 fecha em 33 pedidos / 6.306 un (Entrega 25/5.742 · Reserva 3/540 · Degustação 5/24), 100% conforme resumo da Mara. QA Skip 0.0.192 PASS. Recibos: `05_entregas/F3-T010-recibo-relatorios-operacionais.md` e `05_entregas/F3-T011-recibo-embrulho-planejamento.md`. Próxima: F3-T007 (piloto híbrido com o time de produção, turno real + aceite).
 
 ## Decisões incorporadas
 
@@ -26,6 +26,7 @@
 - Parâmetros G3-OPS-01 (produção, 14/09): fila natural = data de entrega; urgência = pedido novo com entrega em até 7 dias; falta de material = ocorrência (RN-3-204); verificação automática de estoque fora do escopo (melhoria futura); sinal/entrada basta para liberar, total pago até a entrega; revendedores/CNPJ com política de recebimento individual.
 - Relatórios impressos são para uso operacional: funcional > bonito (Champion, 27/09).
 - Sincronização de OPs: em divergência PDF × resumo, o resumo da Champion é a fonte da verdade e a divergência fica registrada no histórico do pedido (lote 5, 01/10).
+- Auditoria de composições (09/10, Mara): descrições de embalagem vêm SEMPRE do PDF real, nunca de texto genérico; após cada lote, validar "soma dos itens = quantidade do pedido" em todos os importados (09/10).
 
 ## Referências
 
@@ -38,5 +39,3 @@
 - `05_entregas/F3-T005-roteiro-aceite-jornadas.md`
 - `05_entregas/F3-T006-recibo-fila-producao.md`
 - `05_entregas/F3-T010-recibo-relatorios-operacionais.md`
-- `05_entregas/F3-T011-recibo-embrulho-planejamento.md`
-- sistema técnico: Skip 52694 (preview nexus-emilia-49529--preview.goskip.app), QA 0.0.165

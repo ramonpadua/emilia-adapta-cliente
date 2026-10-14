@@ -19,7 +19,7 @@ Uma task por vez. Teste humano obrigatório após cada task. Nenhuma task public
 | F3-T007 | Executar piloto híbrido e aceitar operação | Líder + Champion | SPEC-3-003 | CA-3-017–021 | REGRESSÃO e turno piloto | relatório, hashes e aceite | F3-T006 aceita | Elegível | 7 |
 | F3-T008 | Construir fila, protocolo e ocorrências de entrega | Responsável técnico | SPEC-3-004 | CA-3-022–027 | RED/GREEN expedição | migration, testes e capturas | F3-T007; G3-ENT-01 | Bloqueada | 8 |
 | F3-T009 | Executar piloto ponta a ponta e aceitar Fase 3 | Expedição + Champion | SPEC-3-004 | CA-3-022–028 | REGRESSÃO/e2e | relatório e aceite humano | F3-T008 aceita | Bloqueada | 9 |
-| F3-T010 | Relatórios operacionais + importação de OPs reais (lotes 1–5) | Responsável técnico + Champion | Recibo F3-T010 | 4 relatórios + importação idempotente + previsões fora do total | QA 0.0.134→0.0.165; totais conferidos com GestãoClick/resumo | recibos, totais, aceite humano | F3-T006 | concluída (2026-10-06) | 10 |
+| F3-T010 | Relatórios operacionais + importação de OPs reais (lotes 1–5) | Responsável técnico + Champion | Recibo F3-T010 | 4 relatórios + importação idempotente + previsões fora do total | QA 0.0.134→0.0.192; totais conferidos com GestãoClick/resumo | recibos, totais, aceite humano | F3-T006 | concluída (2026-10-06) · manutenção pós-aceite: lotes 6d/6f/6g (09–10/10) validados pela Mara | 10 |
 | F3-T011 | Embrulho por papel + planejamento semanal (modelo da planilha) | Responsável técnico + Champion | Recibo F3-T011 | lista por sabor/cor + planejamento com RLS admin | QA 0.0.137→0.0.165; persistência validada | recibo, aceite humano | F3-T010 | concluída (2026-10-06) | 11 |
 
 ## Handoff
