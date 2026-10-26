@@ -13,3 +13,10 @@
 - emenda_candidata: E02 — liberação automática com gestão por exceção (pedida pela Mara em 15/10 15h26): gates passam → sistema libera sozinho e notifica; pendência → lista "precisa de você" com motivo/dono e override com justificativa (só hierarquia maior, auditado); muda entrega aceita da T006 → decisão da Fê como champion
 - proxima_acao: aguardar decisão da Mara sobre E01+E02 e autorização para implementar (fixture, roteiro em papel e contas de líder)
 - atualizado_em: 2026-10-24T18:25:00-03:00
+
+## Atualização do consultor — 26/10/2026
+
+- Orientação ratificada: retomar T007 com emenda na SPEC-3-003 e no quadro fase.md; produção em papel e retorno por Mara/Fernanda já conhecidos. Não exigir computador na produção nem reconstruir T006/T010/T011.
+- Autorização desta atualização é documental/planejamento, não aprovação da E01/E02 nem permissão de publicação ou escrita em dados reais. Confirmar com Fernanda a retomada assistida e a prova faltante, reaproveitando evidências existentes; não pedir novamente informações já disponíveis.
+- Próxima ação: explicar objetivo do piloto, apresentar cobertura já provada e lacunas concretas; pedir somente decisões/informações realmente faltantes. T008/T009 continuam dependentes; sem aceite automático.
+- Importação PDF/Excel preparada na nota F4 para futura liberação; implementação bloqueada pelos modelos e contrato de dados. F5 integral; estoque fora.

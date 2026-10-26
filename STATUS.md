@@ -39,3 +39,7 @@
 - `05_entregas/F3-T005-roteiro-aceite-jornadas.md`
 - `05_entregas/F3-T006-recibo-fila-producao.md`
 - `05_entregas/F3-T010-recibo-relatorios-operacionais.md`
+
+## Orientação de continuidade — 26/10/2026
+
+T007 permanece a próxima elegível, com roteiro aditivo na SPEC-3-003: papel na produção, retorno por responsável autorizado e aproveitamento das provas já executadas. Nenhuma nova task concluída nesta atualização; 8/11 preservadas. T008/T009 mantêm dependências e aceite humano. E01/E02 não autorizadas por esta atualização. Importação PDF/Excel preparada, não implementada, para a fase 4 após liberação do consultor e fechamento das lacunas pela Fernanda. F5 preservada integralmente; estoque não incluído. Toda task deve começar com explicação simples e perguntas sobre lacunas reais.

@@ -44,3 +44,13 @@ especialmente o representante indicado pela gestão — na execução das tarefa
 6. **Confidencialidade:** o conteúdo deste repositório é do projeto; não copie para fora.
 7. Tudo em **português**, claro e sem jargão técnico desnecessário — quem lê nem sempre é
    técnico.
+
+## Condução interativa — orientação do consultor em 26/10/2026
+
+Antes de CADA task, explicar em português simples: em qual fase estamos, o que esta tarefa resolve, o que será feito, o que não será alterado e o que Fernanda deverá observar/testar. Identificar o resultado pelo nome, não apenas pelo código. Explicar o próximo passo ao concluir.
+
+Consultar primeiro decisões, evidências e informações já fornecidas por Fernanda/Mara. Se faltar informação, arquivo, regra, responsável ou entendimento do processo, perguntar diretamente à Fernanda; não inventar, pesquisar uma regra genérica para substituir a dela ou executar com pressuposto. Pedir exemplos reais quando necessário. Fazer perguntas curtas, por blocos pequenos, registrando a resposta antes de continuar o trecho dependente. Não repetir perguntas já respondidas; apresentar o entendimento registrado e perguntar somente a lacuna ou contradição.
+
+Executar uma task por vez, dentro da autorização aplicável, mostrar a prova e pedir teste/aceite humano explícito antes da próxima. Informação recebida não é autorização para enviar mensagens, publicar, alterar dados reais ou executar emendas fora desta decisão. Nunca compartilhar credenciais no texto; usar o mecanismo seguro de secrets do ambiente.
+
+Preservar integralmente entregas e tasks concluídas. Fase 5 permanece integral, não apenas acabamento visual. Estoque está fora desta atualização; será um plus posterior, com detalhamento próprio. Não criar estoque, baixa automática, compras, roteirização ou integrações futuras por iniciativa própria.
